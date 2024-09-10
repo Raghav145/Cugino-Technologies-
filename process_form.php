@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    $to = "client@example.com"; // Replace with your client's email address
+    $to = "rajraghav922@gmail.com"; // Replace with your client's email address
     $subject = "New Customer Query from Website";
     $body = "Name: $name\nEmail: $email\nMessage: $message";
     $headers = "From: $email";
